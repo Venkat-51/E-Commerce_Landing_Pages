@@ -1,7 +1,7 @@
 services:
   # Backend API Service
   - type: web
-    name: sellerrocket-backend
+    name: skyrocket-backend
     env: node
     rootDir: backend
     buildCommand: npm install && npm run build
@@ -16,7 +16,7 @@ services:
       - key: FRONTEND_URL
         # Comma-separated list of allowed CORS origins.
         # Add any additional allowed origins separated by commas (no spaces).
-        value: https://sellerrocket-venkateswaran.vercel.app,https://www.sellerrocket-venkateswaran.vercel.app
+        value: https://skyrocket-venkateswaran.vercel.app,https://www.skyrocket-venkateswaran.vercel.app
     disk:
       name: sqlite-data
       mountPath: /data

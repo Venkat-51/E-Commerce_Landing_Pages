@@ -1,10 +1,10 @@
-# SellerRocket – E-Commerce Seller Management Platform
+# skyrocket – E-Commerce Seller Management Platform
 
-SellerRocket is a modern seller management platform designed to help online sellers manage products, inventory, and business operations efficiently. The application provides a clean user interface, scalable architecture, and seamless user experience.
+skyrocket is a modern seller management platform designed to help online sellers manage products, inventory, and business operations efficiently. The application provides a clean user interface, scalable architecture, and seamless user experience.
 
 ## 🚀 Live Demo
 
-[sellerrocket-venkateswaran-77sc-m1g6ipzz9.vercel.app](https://sellerrocket-venkateswaran-77sc-m1g6ipzz9.vercel.app/)
+[skyrocket-venkateswaran-77sc-m1g6ipzz9.vercel.app](https://skyrocket-venkateswaran-77sc-m1g6ipzz9.vercel.app/)
 
 ## 📌 Features
 
@@ -46,7 +46,7 @@ SellerRocket is a modern seller management platform designed to help online sell
 ## 📂 Project Structure
 
 ```text
-sellerrocket/
+skyrocket/
 │
 ├── frontend/
 │   ├── guidelines/
@@ -93,7 +93,7 @@ Add screenshots of:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/Venkat-51/sellerrocket-venkateswaran.git
+git clone https://github.com/Venkat-51/skyrocket-venkateswaran.git
 ```
 
 ### Navigate to Frontend
@@ -130,7 +130,7 @@ http://localhost:5173
 
 ## 💼 Resume Project Description
 
-Developed SellerRocket, an e-commerce seller management platform using React.js, TypeScript, Node.js, and MongoDB. Implemented product management, inventory tracking, responsive dashboards, and API integration while following modern frontend development practices.
+Developed skyrocket, an e-commerce seller management platform using React.js, TypeScript, Node.js, and MongoDB. Implemented product management, inventory tracking, responsive dashboards, and API integration while following modern frontend development practices.
 
 ## 👨‍💻 Author
 

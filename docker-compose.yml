@@ -8,7 +8,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: sellerrocket-backend
+    container_name: skyrocket-backend
     restart: unless-stopped
     ports:
       - "3001:3001"
@@ -28,7 +28,7 @@ services:
       retries: 3
       start_period: 15s
     networks:
-      - sellerrocket
+      - skyrocket
 
   # ──────────────────────────────────────────
   # Frontend — React / Vite → Nginx
@@ -40,7 +40,7 @@ services:
       args:
         # Tells Vite where the backend API lives at build time
         VITE_API_URL: ${VITE_API_URL:-http://localhost:3001}
-    container_name: sellerrocket-frontend
+    container_name: skyrocket-frontend
     restart: unless-stopped
     ports:
       - "80:80"
@@ -48,7 +48,7 @@ services:
       backend:
         condition: service_healthy
     networks:
-      - sellerrocket
+      - skyrocket
 
 # ──────────────────────────────────────────
 # Volumes
@@ -61,5 +61,5 @@ volumes:
 # Networks
 # ──────────────────────────────────────────
 networks:
-  sellerrocket:
+  skyrocket:
     driver: bridge

@@ -10,8 +10,8 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // FRONTEND_URL can be a comma-separated list of allowed origins.
-// e.g. "https://sellerrocket-venkateswaran.vercel.app,http://localhost:5173"
-const allowedOrigins = (process.env.FRONTEND_URL || 'http://localhost:5173','https://sellerrocket-venkateswaran.vercel.app')
+// e.g. "https://skyrocket-venkateswaran.vercel.app,http://localhost:5173"
+const allowedOrigins = (process.env.FRONTEND_URL || 'http://localhost:5173','https://skyrocket-venkateswaran.vercel.app')
   .split(',')
   .map((o) => o.trim().replace(/\/$/, ''))  // trim spaces AND trailing slashes
   .filter(Boolean);

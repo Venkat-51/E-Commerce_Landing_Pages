@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Name */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Seller Rocket</h3>
+            <h3 className="text-lg font-bold mb-4">skyrocket</h3>
             <p className="text-sm text-muted-foreground">
               Your trusted partner for e-commerce success
             </p>
@@ -18,11 +18,11 @@ export function Footer() {
             <h4 className="text-sm font-semibold mb-4">Contact Us</h4>
             <div className="space-y-3">
               <a
-                href="mailto:hello@sellerrocket.com"
+                href="mailto:hello@skyrocket.com"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                hello@sellerrocket.com
+                hello@skyrocket.com
               </a>
               <a
                 href="tel:+919876543210"
@@ -63,7 +63,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Seller Rocket. All rights reserved.
+            &copy; {new Date().getFullYear()} skyrocket. All rights reserved.
           </p>
         </div>
       </div>
