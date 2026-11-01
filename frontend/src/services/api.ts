@@ -1,5 +1,7 @@
-// API base URL - uses environment variable or defaults to localhost:3001
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+// API base URL — relative '/api' works for both:
+//   • Local dev:    Vite proxies /api → http://localhost:3001 (vite.config.ts)
+//   • Production:   Vercel rewrites /api → https://sellerrocket-venkateswaran.onrender.com/api (vercel.json)
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 export interface Lead {
   name: string;

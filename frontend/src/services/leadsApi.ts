@@ -3,7 +3,7 @@
  * Use this service in your React components to interact with the backend
  */
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+const API_BASE = import.meta.env.VITE_API_URL || '/api';
 
 export interface Lead {
   id?: number;
